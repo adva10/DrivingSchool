@@ -1,0 +1,29 @@
+﻿<Window x:Class="PLWPF.TraineeInfoWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="infoWin" Height="300" Width="300">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ListView Name ="TesterByCar" HorizontalAlignment="Left" Height="149" VerticalAlignment="Top" Width="126" SelectionChanged="ListView_SelectionChanged" ItemsSource="{Binding}" Grid.Row="1" Margin="10,10,0,0" Background="White" BorderBrush="Black"/>
+        <ListView x:Name ="Tests" HorizontalAlignment="Left" Height="149" VerticalAlignment="Top" Width="130" SelectionChanged="ListView_SelectionChanged" ItemsSource="{Binding}" Grid.Row="1" Grid.Column="1" Margin="10,10,0,0" BorderBrush="Black"/>
+        <Label Content="Tester by car" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Height="30" Width="130" RenderTransformOrigin="0.5,0.5" Foreground="#FFD12C2C"/>
+        <Label Content="Tests" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Height="30" Width="130" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Foreground="#FFD12C2C"/>
+        <Label Content="Number of tests in Average trainees did:" HorizontalAlignment="Left" Margin="-1,10,0,0" VerticalAlignment="Top" Height="30" Width="222" RenderTransformOrigin="0.5,0.5" Grid.Row="2" Grid.ColumnSpan="2" Foreground="#FFD12C2C"/>
+        <Label Name="AverageTest" HorizontalAlignment="Left" Margin="80,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="29" Height="30" Grid.Column="1"/>
+
+    </Grid>
+</Window>

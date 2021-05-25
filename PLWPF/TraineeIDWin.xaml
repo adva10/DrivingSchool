@@ -1,0 +1,15 @@
+﻿<Window x:Class="PLWPF.TraineeIDWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="TraineeIDWin" Height="200" Width="300">
+    <Grid>
+        <Label Content="Enter Trainee ID:" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Width="231" FontSize="14"/>
+        <TextBox Name ="TraineeID" HorizontalAlignment="Left" Height="38" Margin="10,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" TextChanged="TraineeID_TextChanged" BorderBrush="Black"/>
+        <Button Content="Start!" HorizontalAlignment="Left" Margin="69,106,0,0" VerticalAlignment="Top" Width="138" Height="40" Click="Button_Click" Background="#FF8D93AA" BorderThickness="0"/>
+
+    </Grid>
+</Window>

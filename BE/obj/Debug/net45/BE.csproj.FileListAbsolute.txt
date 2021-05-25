@@ -1,0 +1,14 @@
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\bin\Debug\net45\BE.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\bin\Debug\net45\BE.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.csproj.CoreCompileInputs.cache
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.AssemblyInfo.cs
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.csprojResolveAssemblyReference.cache
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\bin\Debug\net45\BE.dll
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\bin\Debug\net45\BE.pdb
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.csprojResolveAssemblyReference.cache
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.csproj.CoreCompileInputs.cache
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.AssemblyInfo.cs
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.dll
+C:\adva\Academy\second_year\dotNet\Project01_0561_9165_dotNet5779\BE\obj\Debug\net45\BE.pdb

@@ -1,0 +1,68 @@
+﻿<Window x:Class="PLWPF.UpdateTraineeWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="UpdateTraineeWin" Height="400" Width="600">
+
+
+
+    <Grid>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Residence" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="1" Height="34" Width="70" Grid.Column="1"/>
+        <Label Content="Car" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="2" Height="34" Width="47" Grid.Column="1"/>
+        <Label Content="GearBox" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="3" Height="34" Width="60" Grid.Column="1"/>
+        <Label Content="School" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="4" Height="34" Width="47" Grid.Column="1"/>
+        <Label Content="Num Of lessons" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="4" Height="34" Width="100" Margin="0,9,0,0"/>
+        <Label Content="Teacher" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="5" Height="34" Width="60" Margin="0,10,0,0"/>
+        <TextBox x:Name="Street" HorizontalAlignment="Left" Height="34" Margin="75,0,0,25" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Bottom" Width="60" TextChanged="Street_TextChanged" Grid.Column="1" />
+        <TextBox x:Name="School" Text="{Binding School}" Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="75,7,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" TextChanged="School_TextChanged"/>
+        <TextBox x:Name="Teacher" Text="{Binding Teacher}" HorizontalAlignment="Left" Height="41" Margin="125,10,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" TextChanged="Teacher_TextChanged"/>
+        <TextBox
+            x:Name="numLessons" Text ="{Binding NumOfLessons}"  HorizontalAlignment="Left" Margin="135,9,0,5" Grid.Row="4" TextWrapping="Wrap" Width="151" TextChanged="numLessons_TextChanged"
+    
+            />
+        <ListBox x:Name ="Car" Margin="75,0,0,4" Grid.Row="2" Grid.Column="1">
+            <ListBoxItem>private car</ListBoxItem>
+            <ListBoxItem>two wheeled vehicles</ListBoxItem>
+            <ListBoxItem>mediumTruck</ListBoxItem>
+            <ListBoxItem>heavyTruck</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name ="GearBox" Margin="75,1,0,5" Grid.Row="3" Grid.Column="1">
+            <ListBoxItem>automatic</ListBoxItem>
+            <ListBoxItem>manual</ListBoxItem>
+        </ListBox>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="195,7,0,0" Grid.Row="5" VerticalAlignment="Top" Width="70" Height="37" Click="UpdateButton_Click" Background="Transparent" BorderThickness="0" FontSize="18" Foreground="#FF443C97" Grid.Column="1"/>
+        <TextBox x:Name="NumBuild" HorizontalAlignment="Left" Height="34" Margin="151,2,0,0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Top" Width="58" TextChanged="numBuild_TextChanged" Grid.Column="1" RenderTransformOrigin="0.586,0.559"/>
+        <TextBox x:Name="City" HorizontalAlignment="Left" Height="34" Margin="223,2,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" TextChanged="City_TextChanged" Grid.Column="1"/>
+        <Label Content="fill the fields you want to update:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="246" FontSize="16"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="LastName" HorizontalAlignment="Left" Margin="10,15,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+        <Label Content="FirstName" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-3.026,2.154"/>
+        <TextBlock HorizontalAlignment="Left" Margin="125,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ID}" VerticalAlignment="Top" Height="41" Width="147"/>
+        <TextBlock HorizontalAlignment="Left" Margin="135,17,0,0" Grid.Row="2" TextWrapping="Wrap" Text="{Binding FirstName}" VerticalAlignment="Top" Height="41" Width="137"/>
+        <TextBlock HorizontalAlignment="Left" Margin="135,15,0,0" Grid.Row="3" TextWrapping="Wrap" Text="{Binding LastName}" VerticalAlignment="Top" Height="41" Width="137"/>
+
+
+
+
+
+
+    </Grid>
+</Window>

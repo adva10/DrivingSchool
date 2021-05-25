@@ -1,0 +1,32 @@
+﻿<Window x:Class="PLWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+
+
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/road.jpg"/>
+        </Grid.Background>
+
+        <Label Content="Welcome to driving school" HorizontalAlignment="Center" Margin="67,31,68,0" VerticalAlignment="Top" Width="382" Height="69"  Foreground="Black"
+               FontSize="28" FontWeight="Bold"
+               
+            />
+        <Label Content="ID" HorizontalAlignment="Left" Margin="67,100,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name ="IdTextBox" HorizontalAlignment="Left" Height="32" Margin="115,105,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="295" TextChanged="IdTextBox_TextChanged"/>
+        <CheckBox x:Name="TraineeCheckBox" Content="Trainee" HorizontalAlignment="Left" Margin="178,178,0,0" VerticalAlignment="Top" Height="15" Width="97"  Checked="TraineeCheckBox_Checked" FontSize="14"/>
+        <CheckBox  x:Name="TesterCheckBox" Content="Tester" HorizontalAlignment="Left" Margin="323,178,0,0" VerticalAlignment="Top" Checked="TesterCheckBox_Checked" FontSize="14"/>
+        <Label Content="mark:" HorizontalAlignment="Left" Margin="67,172,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="LogInButton" Content="LogIn" HorizontalAlignment="Left" Height="46" Margin="167,237,0,0" VerticalAlignment="Top" Width="154" FontSize="25" Click="LogInButton_Click" Background="Transparent" BorderThickness="0"  />
+        <Button Content="signUp" HorizontalAlignment="Left" Margin="423,254,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="Button_Click" Background="#00000000" BorderThickness="0" FontSize="16" Foreground="#FF196311" FontWeight="Bold"  />
+        <Button Name ="DeleteAccount" Content="Delete account" HorizontalAlignment="Left" Margin="28,270,0,0" VerticalAlignment="Top" Width="87" Height="32" Background="Transparent" BorderThickness="0" Foreground="#FF171B81" Click="DeleteAccount_Click" FontWeight="Bold" />
+
+    </Grid>
+</Window>

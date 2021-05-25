@@ -1,0 +1,15 @@
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\PL.exe.config
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\PL.exe
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\PL.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\BE.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\BL.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\DAL.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\DS.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\BE.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\BL.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\DAL.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\bin\Debug\DS.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\obj\Debug\PL.exe
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\PL\obj\Debug\PL.pdb

@@ -1,0 +1,12 @@
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\DAL.deps.json
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\DAL.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\DAL.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\BE.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\DS.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\BE.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\bin\Debug\netstandard1.4\DS.pdb
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\obj\Debug\netstandard1.4\DAL.csprojResolveAssemblyReference.cache
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\obj\Debug\netstandard1.4\DAL.csproj.CoreCompileInputs.cache
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\obj\Debug\netstandard1.4\DAL.AssemblyInfo.cs
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\obj\Debug\netstandard1.4\DAL.dll
+C:\adva\talya\dotNet\Project01_0561_9165_dotNet5779\DAL\obj\Debug\netstandard1.4\DAL.pdb

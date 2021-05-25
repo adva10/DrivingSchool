@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <minLesson>20</minLesson>
+  <maxTesterAge>70</maxTesterAge>
+  <minTesterAge>40</minTesterAge>
+  <minTraineeAge>18</minTraineeAge>
+  <breakTime>30</breakTime>
+  <minDistance>20</minDistance>
+  <runCode>11111111</runCode>
+  <DistanceFromAddress>25</DistanceFromAddress>
+  <numOfCriteria>8</numOfCriteria>
+</configuration>

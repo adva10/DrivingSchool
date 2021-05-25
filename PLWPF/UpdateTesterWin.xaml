@@ -1,0 +1,49 @@
+﻿<Window x:Class="PLWPF.UpdateTesterWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="UpdateTraineeWin" Height="400" Width="600">
+
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="hello tester!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="33" Width="176" FontSize="18"  Foreground="#FF443C97"/>
+        <Label Content="Last name" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Height="33" Width="70"/>
+        <Label Content="First name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="2" Height="34" Width="70"/>
+        <Label Content="ID" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Height="34" Width="47"/>
+        <Label Content="Phone number" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Height="33" Width="90" RenderTransformOrigin="0.532,1.606" Margin="0,10,0,0"/>
+        <Label Content="Residence" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="1" Height="34" Width="70" Grid.Column="1"/>
+        <Label Content="experience" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="2" Height="34" Width="75" Grid.Column="1" Margin="0,7,0,0"/>
+        <Label Content="Max tests to take a week" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.105,1.692" Grid.Row="3" Height="34" Width="140" Grid.Column="1" Margin="0,8,0,0"/>
+        <TextBlock x:Name="Id" Text="{Binding ID}"  HorizontalAlignment="Right" Height="34" Margin="0,2,60,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBlock x:Name="FirstName" Text="{Binding FirstName}" HorizontalAlignment="Left" Height="34" Margin="66,7,0,0" Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Top" Width="170" />
+        <TextBlock x:Name="LastName" Text="{Binding LastName}" HorizontalAlignment="Left" Margin="66,8,0,10" Grid.Row="3" TextWrapping="Wrap" Width="170"/>
+        <TextBox x:Name="PhoneNumber" Text="{Binding PhoneNumber}" HorizontalAlignment="Left" Margin="95,8,0,10" Grid.Row="4" TextWrapping="Wrap" Width="170" TextChanged="PhoneNumber_TextChanged"/>
+        <TextBox x:Name="Street" Grid.Column="1" HorizontalAlignment="Left" Margin="75,0,0,19" Grid.Row="1" TextWrapping="Wrap" Text="Street" Width="65" TextChanged="Street_TextChanged"/>
+        <TextBox x:Name="experience" Text="{Binding experience}" Grid.Column="1" HorizontalAlignment="Left" Height="42" Margin="80,0,0,10" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="171" TextChanged="experience_TextChanged"/>
+        <TextBox x:Name="MaxTestAWeek" Text="{Binding MaxTestsAWeek}" Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="153,8,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="MaxTestAWeek_TextChanged"/>
+        <Button Content="Update" Grid.Column="1" HorizontalAlignment="Left" Margin="175,10,0,0" Grid.Row="5" VerticalAlignment="Top" Width="101" Height="37" Click="signUpButton_Click" RenderTransformOrigin="0.6,-0.435" Background="Transparent" BorderThickness="0" FontSize="18" Foreground="#FF443C97"/>
+        <TextBox x:Name="NumBuild" Grid.Column="1" HorizontalAlignment="Left" Height="42" Margin="155,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Num&#xA;building" VerticalAlignment="Top" Width="58" TextChanged="NumBuild_TextChanged"/>
+        <TextBox x:Name="City" Grid.Column="1" HorizontalAlignment="Left" Height="42" Margin="233,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="City" VerticalAlignment="Top" Width="63" TextChanged="City_TextChanged"/>
+
+
+
+
+
+    </Grid>
+</Window>

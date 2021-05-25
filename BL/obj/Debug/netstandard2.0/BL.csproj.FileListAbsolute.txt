@@ -1,0 +1,9 @@
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\bin\Debug\netstandard2.0\BL.deps.json
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\bin\Debug\netstandard2.0\BL.dll
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\bin\Debug\netstandard2.0\BL.pdb
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\obj\Debug\netstandard2.0\BL.csprojAssemblyReference.cache
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\obj\Debug\netstandard2.0\BL.csproj.CoreCompileInputs.cache
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\obj\Debug\netstandard2.0\BL.AssemblyInfoInputs.cache
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\obj\Debug\netstandard2.0\BL.AssemblyInfo.cs
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\obj\Debug\netstandard2.0\BL.dll
+E:\אקדמיה\dotnet\Project01_0561_9165_dotNet5779\BL\obj\Debug\netstandard2.0\BL.pdb

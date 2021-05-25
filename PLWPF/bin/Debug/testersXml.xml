@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ArrayOfTester xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tester>
+    <ID>345</ID>
+    <LastName>levi</LastName>
+    <FirstName>adva</FirstName>
+    <BirthDate>1962-07-02T00:00:00</BirthDate>
+    <Gender>female</Gender>
+    <PhoneNumber>7653</PhoneNumber>
+    <Residence>
+      <street>pisga</street>
+      <bulidingNum>14</bulidingNum>
+      <city>Jerusalem</city>
+    </Residence>
+    <experience>50</experience>
+    <MaxTestsAWeek>15</MaxTestsAWeek>
+    <Car>privateCar</Car>
+    <StringSchedule>F,F,F,F,F,F
+F,F,F,F,F,F
+F,F,F,F,F,F
+F,F,F,F,F,F
+F,F,F,F,F,F
+</StringSchedule>
+  </Tester>
+</ArrayOfTester>
